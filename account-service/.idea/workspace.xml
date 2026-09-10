@@ -1,0 +1,176 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="a8b135ea-fae1-47d2-b74f-32eae4046733" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.gitattributes" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.mvn/wrapper/maven-wrapper.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mvnw" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mvnw.cmd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/banking/accountservice/AccountServiceApplication.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/banking/accountservice/controller/AccountController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/banking/accountservice/dto/AccountResponse.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/banking/accountservice/dto/CreateAccountRequest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/banking/accountservice/entity/Account.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/banking/accountservice/entity/AccountStatus.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/banking/accountservice/entity/AccountType.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/banking/accountservice/repository/AccountRepository.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/banking/accountservice/service/AccountEventConsumer.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/banking/accountservice/service/AccountService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/application.yaml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/banking/accountservice/AccountServiceApplicationTests.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../api-gateway/.gitattributes" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../api-gateway/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../api-gateway/.mvn/wrapper/maven-wrapper.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../api-gateway/mvnw" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../api-gateway/mvnw.cmd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../api-gateway/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../api-gateway/src/main/java/com/banking/apigateway/ApiGatewayApplication.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../api-gateway/src/main/resources/application.yaml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../api-gateway/src/test/java/com/banking/apigateway/ApiGatewayApplicationTests.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../fraud-dection/.gitattributes" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../fraud-dection/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../fraud-dection/.mvn/wrapper/maven-wrapper.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../fraud-dection/mvnw" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../fraud-dection/mvnw.cmd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../fraud-dection/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../fraud-dection/src/main/java/com/banking/frauddection/FraudDectionApplication.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../fraud-dection/src/main/resources/application.yaml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../fraud-dection/src/test/java/com/banking/frauddection/FraudDectionApplicationTests.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../notification-service/.gitattributes" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../notification-service/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../notification-service/.mvn/wrapper/maven-wrapper.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../notification-service/mvnw" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../notification-service/mvnw.cmd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../notification-service/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../notification-service/src/main/java/com/banking/notificationservice/NotificationServiceApplication.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../notification-service/src/main/resources/application.yaml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../notification-service/src/test/java/com/banking/notificationservice/NotificationServiceApplicationTests.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../payment-service/.gitattributes" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../payment-service/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../payment-service/.mvn/wrapper/maven-wrapper.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../payment-service/mvnw" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../payment-service/mvnw.cmd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../payment-service/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../payment-service/src/main/java/com/banking/paymentservice/PaymentServiceApplication.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../payment-service/src/main/resources/application.yaml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../payment-service/src/test/java/com/banking/paymentservice/PaymentServiceApplicationTests.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../transaction-service/.gitattributes" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../transaction-service/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../transaction-service/.mvn/wrapper/maven-wrapper.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../transaction-service/mvnw" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../transaction-service/mvnw.cmd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../transaction-service/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../transaction-service/src/main/java/com/banking/transactionservice/TransactionServiceApplication.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../transaction-service/src/main/resources/application.yaml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../transaction-service/src/test/java/com/banking/transactionservice/TransactionServiceApplicationTests.java" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CopilotPersistence">
+    <persistenceIdMap>
+      <entry key="_/home/dibyajit/Documents/projects/banking/account-service" value="3IzwOsunexrBwguQe8vKqKWh7H2" />
+    </persistenceIdMap>
+  </component>
+  <component name="CopilotUserSelectedModel">
+    <selectedModels>
+      <entry key="chat-panel" value="Gemini 3.6 Flash#(Gemini)" />
+      <entry key="agent-panel" value="Gemini 3.6 Flash#(Gemini)" />
+    </selectedModels>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Enum" />
+        <option value="Interface" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;dibyajit1234&quot;
+  }
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/dibyajit1234/Banking-System.git&quot;,
+    &quot;accountId&quot;: &quot;0a2eb4eb-5ff9-4765-abab-4c256d4b5b31&quot;
+  }
+}</component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="mavenHomeTypeForPersistence" value="WRAPPER" />
+      </MavenGeneralSettings>
+    </option>
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 6,
+  &quot;fromUser&quot;: false
+}</component>
+  <component name="ProjectId" id="3IzwOsunexrBwguQe8vKqKWh7H2" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ModuleVcsDetector.initialDetectionPerformed": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "git-widget-placeholder": "main",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "/home/dibyajit/Documents/projects/banking/backend",
+    "settings.editor.selected.configurable": "project.propVCSSupport.DirectoryMappings"
+  }
+}]]></component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-jdk-30f59d01ecdd-2fc7cc6b9a17-intellij.indexing.shared.core-IU-253.32098.37" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="a8b135ea-fae1-47d2-b74f-32eae4046733" name="Changes" comment="" />
+      <created>1788780675877</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1788780675877</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="github-copilot-workspace">
+    <instructionFileLocations>
+      <option value=".github/instructions" />
+    </instructionFileLocations>
+    <promptFileLocations>
+      <option value=".github/prompts" />
+    </promptFileLocations>
+  </component>
+</project>
