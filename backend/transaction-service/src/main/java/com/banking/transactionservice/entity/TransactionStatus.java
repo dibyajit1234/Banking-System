@@ -11,5 +11,8 @@ package com.banking.transactionservice.entity;
 public enum TransactionStatus {
     PENDING,
     PROCESSING,
-    COMPLETED
+    PENDING_VERIFICATION,
+    COMPLETED,
+    FAILED,
+    FLAGGED
 }

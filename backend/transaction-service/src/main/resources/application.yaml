@@ -1,3 +1,49 @@
 spring:
   application:
     name: transaction-service
+  datasource:
+    url: jdbc:mysql://localhost:3306/transactoin_db?createDatabaseIfNotEsists=True
+    username: root
+    password: root
+    driver-class-name: com.mysql.cj.jdbc.driver
+  jpa:
+    hibernate:
+      ddl-auto: update
+    show-sql: true
+    properties:
+      hibernate:
+        dialect: org.hibernate.dialect.MySQLDialect
+  kafka:
+    bootstrap-server: localhost:9092
+    consumer:
+      group-id: account-service-group
+      auto-offset-reset: earliest
+      key-deserializer: org.apache.kafka.common.serialization.StringDeserializer
+      value-deserializer: org.springFramework.kafka.support.serializer.ksonDeserializer
+      properties:
+        spring:
+          json:
+            trusted:
+              packages: "*"
+            use:
+              type:
+                headers: false
+            value:
+              default:
+                type: java.util.HashMap
+    producer:
+      key-serializer: org.apache.kafka.common.serialization.Stringserializer
+      value-serializer: org.springFramework.kafka.support.serializer.ksonserializer
+
+server:
+  port: 8082
+
+account:
+  service:
+    url: http://localhost/
+
+management:
+  endpoints:
+    web:
+      exposer:
+        include: health,info
