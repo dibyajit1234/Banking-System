@@ -40,7 +40,7 @@ server:
 
 account:
   service:
-    url: http://localhost/
+    url: http://localhost/8081
 
 management:
   endpoints:
